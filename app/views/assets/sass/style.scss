@@ -1,0 +1,75 @@
+$color-primary:red;
+$color-black:black;
+$color-white:rgb(255, 255, 255);
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Arial Rounded MT Bold', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+#icons_menu{
+  background-color: $color-primary !important;
+}
+#NAVBAR{
+  background-color: $color-white;
+  .container a span{
+    color: $color-black;
+    & #text_logo{
+      color: $color-primary;
+    }
+  }
+  #navbar_menu ul li a{
+    color: $color-black;
+    &:hover{
+      color: $color-primary;
+    }
+  }
+  #btn_sigin{
+    margin-right: 10px;
+  }
+  #btn_login{
+    margin-top: 2px;
+    padding: 5px 20px;
+    background-color: $color-primary;
+    color: $color-white !important;
+    border-radius: 5px;
+    &:hover{
+      padding: 3px 18px;
+      border: 2px solid $color-primary !important;
+      background-color: $color-white !important;
+      color: $color-primary !important;
+    }
+  } 
+}
+#section1_landing{
+  background-color: $color-primary !important;
+  color: $color-white !important;
+  .contact_section1{
+    height: 100%;
+    margin-left: 80px;
+    padding-bottom: 110px;
+    #text_primary_landing{
+      font-weight: bold;
+      padding-top:  180px;
+    }
+    #btn_section1{
+      color: $color-white !important;
+      border-radius: 5px;
+      border: 2px solid $color-white;
+      margin-top: 50px;
+      padding: 5px 25px;
+      &:hover{
+        background-color: $color-white;
+        color: $color-primary !important;
+      }
+    }
+  }
+}
+#section2_landing{
+  position: relative;
+  #img_body_landing_page{
+    width: 100%;
+    position: absolute;
+    right: 80px;
+  }
+}

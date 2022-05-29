@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial Rounded MT Bold', Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#icons_menu {
+  background-color: red !important;
+}
+
+#NAVBAR {
+  background-color: white;
+}
+
+#NAVBAR .container a span {
+  color: black;
+}
+
+#NAVBAR .container a span #text_logo {
+  color: red;
+}
+
+#NAVBAR #navbar_menu ul li a {
+  color: black;
+}
+
+#NAVBAR #navbar_menu ul li a:hover {
+  color: red;
+}
+
+#NAVBAR #btn_sigin {
+  margin-right: 10px;
+}
+
+#NAVBAR #btn_login {
+  margin-top: 2px;
+  padding: 5px 20px;
+  background-color: red;
+  color: white !important;
+  border-radius: 5px;
+}
+
+#NAVBAR #btn_login:hover {
+  padding: 3px 18px;
+  border: 2px solid red !important;
+  background-color: white !important;
+  color: red !important;
+}
+
+#section1_landing {
+  background-color: red !important;
+  color: white !important;
+}
+
+#section1_landing .contact_section1 {
+  height: 100%;
+  margin-left: 80px;
+  padding-bottom: 110px;
+}
+
+#section1_landing .contact_section1 #text_primary_landing {
+  font-weight: bold;
+  padding-top: 180px;
+}
+
+#section1_landing .contact_section1 #btn_section1 {
+  color: white !important;
+  border-radius: 5px;
+  border: 2px solid white;
+  margin-top: 50px;
+  padding: 5px 25px;
+}
+
+#section1_landing .contact_section1 #btn_section1:hover {
+  background-color: white;
+  color: red !important;
+}
+
+#section2_landing {
+  position: relative;
+}
+
+#section2_landing #img_body_landing_page {
+  width: 100%;
+  position: absolute;
+  right: 80px;
+}
+/*# sourceMappingURL=style.css.map */
