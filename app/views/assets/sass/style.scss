@@ -1,6 +1,8 @@
 $color-primary:red;
 $color-black:black;
 $color-white:rgb(255, 255, 255);
+$color-login:#F3F2EF;
+
 *{
   margin: 0;
   padding: 0;
@@ -65,11 +67,12 @@ $color-white:rgb(255, 255, 255);
     }
   }
 }
-#section2_landing{
-  position: relative;
-  #img_body_landing_page{
-    width: 100%;
-    position: absolute;
-    right: 80px;
+#body{
+  background-color: $color-primary !important;
+  #contant{
+   
   }
+}
+#img_login{
+  width: 100% !important;
 }

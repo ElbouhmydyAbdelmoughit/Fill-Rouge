@@ -66,13 +66,11 @@
   color: red !important;
 }
 
-#section2_landing {
-  position: relative;
+#body {
+  background-color: red !important;
 }
-#section2_landing #img_body_landing_page {
-  width: 100%;
-  position: absolute;
-  right: 80px;
+#img_login {
+  width: 100% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
