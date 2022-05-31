@@ -2,6 +2,14 @@ $color-primary:red;
 $color-black:black;
 $color-white:rgb(255, 255, 255);
 $color-login:#F3F2EF;
+$color-shadow:#c4c4c4;
+
+/*mixin for center element*/
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
 
 *{
   margin: 0;
@@ -67,12 +75,15 @@ $color-login:#F3F2EF;
     }
   }
 }
-#body{
-  background-color: $color-primary !important;
+#container_fluid{
+  @include center();
+  background-color: $color-login !important;
+  padding: 20px;
   #contant{
-   
+    width: 150vh;
+    height: 90vh;
+    box-shadow: 5px 5px 20px $color-shadow;
+    border-radius: 15px;
+    background-color: $color-white !important;
   }
-}
-#img_login{
-  width: 100% !important;
 }
