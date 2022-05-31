@@ -34,66 +34,48 @@
   </nav>
   <!------section Login page----->
   <div id="container_fluid" class="container-fluid pt-4">
-    <div id="contant" class="contant p-2  col-10 d-flex">
-      <div class="col-6 p-5">
+    <div id="contant" class="contant  col-12 d-flex text-nowrap">
+      <div class="col-lg-6 col-12 pe-3 ps-5 pt-4">
+        <div>
+          <h2 id="text_login">Login</h2>
+        </div>
         <form>
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <input type="email" id="form2Example1" class="form-control" />
-            <label class="form-label" for="form2Example1">Email address</label>
+            <input type="email" placeholder="Email" class="form-control" />
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-4">
-            <input type="password" id="form2Example2" class="form-control" />
-            <label class="form-label" for="form2Example2">Password</label>
+            <input type="password" placeholder="Password" class="form-control" />
           </div>
 
           <!-- 2 column grid layout for inline styling -->
           <div class="row mb-4">
-            <div class="col d-flex justify-content-center">
+            <div class=" d-flex justify-content-start">
               <!-- Checkbox -->
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-                <label class="form-check-label" for="form2Example31"> Remember me </label>
+              <div class="form-check text-start">
+                <input class="form-check-input" type="checkbox" value="" id="remember_me" checked />
+                <label class="form-check-label" for="remember_me"> Remember me </label>
               </div>
-            </div>
-
-            <div class="col">
-              <!-- Simple link -->
-              <a href="#!">Forgot password?</a>
             </div>
           </div>
 
           <!-- Submit button -->
-          <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+          <button type="button" id="login" class="btn form-control  mb-4">Log in</button>
 
           <!-- Register buttons -->
-          <div class="text-center">
-            <p>Not a member? <a href="#!">Register</a></p>
-            <p>or sign up with:</p>
-            <button type="button" class="btn btn-link btn-floating mx-1">
-              <i class="fab fa-facebook-f"></i>
-            </button>
-
-            <button type="button" class="btn btn-link btn-floating mx-1">
-              <i class="fab fa-google"></i>
-            </button>
-
-            <button type="button" class="btn btn-link btn-floating mx-1">
-              <i class="fab fa-twitter"></i>
-            </button>
-
-            <button type="button" class="btn btn-link btn-floating mx-1">
-              <i class="fab fa-github"></i>
-            </button>
+          <div class="text-start">
+            <p class="text-dark fst-italic"><small> If don't have accout <a href="#" class="text-primary">Sign in</a> to
+                create account
+                !</small></p>
           </div>
         </form>
       </div>
-      <!-- <div class="col-6 border border-1 border-prmary" id="img_body_login_page">
+      <div class="col-lg-6 d-lg-block d-none">
         <img src="assets/img/img_body_login.jpg" class="img-responsive w-100" id="img_login"
           alt="Image Body Login Page">
-      </div> -->
+      </div>
     </div>
   </div>
 

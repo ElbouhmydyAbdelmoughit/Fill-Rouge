@@ -11,6 +11,11 @@ $color-shadow:#c4c4c4;
   justify-content: center;
 } 
 
+/*mixin box shadow for button */
+@mixin shadow {
+  box-shadow: inset 3px 3px 20px $color-primary,3px 3px 20px $color-primary;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -80,10 +85,30 @@ $color-shadow:#c4c4c4;
   background-color: $color-login !important;
   padding: 20px;
   #contant{
-    width: 150vh;
-    height: 90vh;
+    padding-bottom: 0 !important;
+    max-width: 120vh;
+    height: 80vh;
     box-shadow: 5px 5px 20px $color-shadow;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: $color-white !important;
+    #text_login{
+      padding-left: 10px;
+      margin-bottom: 50px !important;
+      border-left: 3px solid $color-primary !important;
+    }
+    #login{
+      background-color: $color-black;
+      color: $color-white;
+      &:hover{
+        border: 2px solid $color-primary;
+        color: $color-primary;
+        background-color: $color-white;
+      }
+    }
+    #img_login{
+      border-radius: 0px 10px 10px 0px;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
