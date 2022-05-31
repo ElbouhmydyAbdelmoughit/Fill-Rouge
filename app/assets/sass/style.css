@@ -1,4 +1,3 @@
-/*mixin for center element*/
 * {
   margin: 0;
   padding: 0;
@@ -67,19 +66,17 @@
   color: red !important;
 }
 
-#container_fluid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #F3F2EF !important;
-  padding: 20px;
+#section2_landing {
+  position: relative;
 }
-#container_fluid #contant {
-  width: 150vh;
-  height: 90vh;
-  box-shadow: 5px 5px 20px #c4c4c4;
-  border-radius: 15px;
-  background-color: white !important;
+#section2_landing #img_body_landing_page {
+  width: 100%;
+  position: absolute;
+  right: 80px;
+}
+
+#works {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
